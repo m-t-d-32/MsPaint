@@ -20,4 +20,3 @@ C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.About.resources
 C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.Form1.resources
 C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.Resources.resources
 C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.vbproj.GenerateResource.Cache
-C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.vbprojResolveAssemblyReference.cache

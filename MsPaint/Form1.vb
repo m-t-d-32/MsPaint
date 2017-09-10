@@ -59,6 +59,9 @@
                 End If
             Next
         Next
+        tempimg.Dispose()
+        imggra = Graphics.FromImage(img)
+        PictureLoc.Image = img
     End Sub
     Private Sub Fill(x As Integer, y As Integer)
         Dim judge(,) As Boolean

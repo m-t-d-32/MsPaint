@@ -19,6 +19,14 @@ MsPaint
 	<summary>
   查找 System.Drawing.Bitmap 类型的本地化资源。
 </summary>
+</member><member name="P:MsPaint.My.Resources.Resources.Large">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
+</member><member name="P:MsPaint.My.Resources.Resources.Small">
+	<summary>
+  查找 System.Drawing.Bitmap 类型的本地化资源。
+</summary>
 </member><member name="P:MsPaint.My.Resources.Resources.取色">
 	<summary>
   查找 System.Drawing.Bitmap 类型的本地化资源。
