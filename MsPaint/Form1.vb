@@ -37,7 +37,7 @@
     Dim NowTitle As String = "无标题"
     Dim tempfilename, tempfiletitle As String
     Dim threadx, thready As Integer
-    Dim intexts As TextBox
+    Dim intexts As New TextBox
     Dim minusex, minusey As Integer
     Private Sub LoadProgram()
         For i = 1 To img.Width - 1
@@ -158,18 +158,20 @@
                 imgpen.Color = Color.FromArgb(255, 255 - tempcolor.R, 255 - tempcolor.G, 255 - tempcolor.B)
                 imgpen.DashStyle = Drawing2D.DashStyle.Dash
             Case things.TEXT
-                intexts.BorderStyle = BorderStyle.None
-                intexts.Left += 3
-                intexts.Top += 3
-                Dim temp As New Bitmap(intexts.Width, intexts.Height)
-                intexts.DrawToBitmap(temp, New Rectangle(0, 0, intexts.Width, intexts.Height))
-                For i = 1 To intexts.Width - 1
-                    For j = 1 To intexts.Height - 1
-                        If intexts.Left + i < img.Width And intexts.Top + j < img.Height Then
-                            img.SetPixel(intexts.Left + i, intexts.Top + j, temp.GetPixel(i, j))
-                        End If
+                If intexts.Text <> "" Then
+                    intexts.BorderStyle = BorderStyle.None
+                    intexts.Left += 3
+                    intexts.Top += 3
+                    Dim temp As New Bitmap(intexts.Width, intexts.Height)
+                    intexts.DrawToBitmap(temp, New Rectangle(0, 0, intexts.Width, intexts.Height))
+                    For i = 1 To intexts.Width - 1
+                        For j = 1 To intexts.Height - 1
+                            If intexts.Left + i < img.Width And intexts.Top + j < img.Height Then
+                                img.SetPixel(intexts.Left + i, intexts.Top + j, temp.GetPixel(i, j))
+                            End If
+                        Next
                     Next
-                Next
+                End If
                 intexts.Dispose()
                 intexts = New TextBox
                 intexts.Left = e.X
@@ -265,19 +267,21 @@
                 disposemove()
         End Select
         If nowthing = things.TEXT Then
-            Dim temp As New Bitmap(intexts.Width, intexts.Height)
-            intexts.BorderStyle = BorderStyle.None
-            intexts.Left += 1
-            intexts.Width += 1
-            intexts.DrawToBitmap(temp, New Rectangle(0, 0, intexts.Width, intexts.Height))
-            For i = 1 To temp.Width - 1
-                For j = 1 To temp.Height - 1
-                    If intexts.Left + i < img.Width And intexts.Top + j < img.Height Then
-                        Dim tempcolor As Color = temp.GetPixel(i, j)
-                        img.SetPixel(intexts.Left + i, intexts.Top + j, tempcolor)
-                    End If
+            If intexts.Text <> "" Then
+                Dim temp As New Bitmap(intexts.Width, intexts.Height)
+                intexts.BorderStyle = BorderStyle.None
+                intexts.Left += 1
+                intexts.Width += 1
+                intexts.DrawToBitmap(temp, New Rectangle(0, 0, intexts.Width, intexts.Height))
+                For i = 1 To temp.Width - 1
+                    For j = 1 To temp.Height - 1
+                        If intexts.Left + i < img.Width And intexts.Top + j < img.Height Then
+                            Dim tempcolor As Color = temp.GetPixel(i, j)
+                            img.SetPixel(intexts.Left + i, intexts.Top + j, tempcolor)
+                        End If
+                    Next
                 Next
-            Next
+            End If
             intexts.Dispose()
         End If
     End Sub
@@ -504,6 +508,7 @@
     End Sub
     Private Sub TextCmd_MouseDown(sender As Object, e As MouseEventArgs) Handles TextCmd.MouseDown
         nowthing = things.TEXT
+        intexts.Dispose()
         intexts = New TextBox
         intexts.Left = e.X
         intexts.Top = e.Y
@@ -665,4 +670,6 @@
             clone()
         End If
     End Sub
+
+
 End Class

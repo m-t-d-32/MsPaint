@@ -50,6 +50,12 @@ Partial Class Form1
         Me.Color7 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Color8 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.LineWid = New System.Windows.Forms.ToolStripSplitButton()
+        Me.LineWid10 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LineWid5 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LineWid3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LineWid2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.LineWid1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.SaveFileDialog = New System.Windows.Forms.SaveFileDialog()
         Me.OpenFileDialog = New System.Windows.Forms.OpenFileDialog()
         Me.Small = New System.Windows.Forms.Button()
@@ -57,12 +63,6 @@ Partial Class Form1
         Me.SquareCmd = New System.Windows.Forms.Button()
         Me.TextCmd = New System.Windows.Forms.Button()
         Me.SelectCmd = New System.Windows.Forms.Button()
-        Me.LineWid = New System.Windows.Forms.ToolStripSplitButton()
-        Me.LineWid10 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LineWid5 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LineWid3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LineWid2 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.LineWid1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.CircleCmd = New System.Windows.Forms.Button()
         Me.FillCmd = New System.Windows.Forms.Button()
         Me.GetColorCmd = New System.Windows.Forms.Button()
@@ -282,6 +282,53 @@ Partial Class Form1
         Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(113, 21)
         Me.ToolStripStatusLabel1.Text = "         Brush         "
         '
+        'LineWid
+        '
+        Me.LineWid.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.LineWid.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LineWid10, Me.LineWid5, Me.LineWid3, Me.LineWid2, Me.LineWid1})
+        Me.LineWid.Image = Global.MsPaint.My.Resources.Resources.直线
+        Me.LineWid.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.LineWid.Name = "LineWid"
+        Me.LineWid.Size = New System.Drawing.Size(32, 24)
+        Me.LineWid.Text = "ToolStripSplitButton1"
+        '
+        'LineWid10
+        '
+        Me.LineWid10.CheckOnClick = True
+        Me.LineWid10.Name = "LineWid10"
+        Me.LineWid10.Size = New System.Drawing.Size(108, 22)
+        Me.LineWid10.Text = "10 px"
+        '
+        'LineWid5
+        '
+        Me.LineWid5.CheckOnClick = True
+        Me.LineWid5.Name = "LineWid5"
+        Me.LineWid5.Size = New System.Drawing.Size(108, 22)
+        Me.LineWid5.Text = "5 px"
+        '
+        'LineWid3
+        '
+        Me.LineWid3.CheckOnClick = True
+        Me.LineWid3.Name = "LineWid3"
+        Me.LineWid3.Size = New System.Drawing.Size(108, 22)
+        Me.LineWid3.Text = "3 px"
+        '
+        'LineWid2
+        '
+        Me.LineWid2.Checked = True
+        Me.LineWid2.CheckOnClick = True
+        Me.LineWid2.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.LineWid2.Name = "LineWid2"
+        Me.LineWid2.Size = New System.Drawing.Size(108, 22)
+        Me.LineWid2.Text = "2 px"
+        '
+        'LineWid1
+        '
+        Me.LineWid1.CheckOnClick = True
+        Me.LineWid1.Name = "LineWid1"
+        Me.LineWid1.Size = New System.Drawing.Size(108, 22)
+        Me.LineWid1.Text = "1 px"
+        '
         'SaveFileDialog
         '
         Me.SaveFileDialog.DefaultExt = "bmp"
@@ -347,53 +394,6 @@ Partial Class Form1
         Me.SelectCmd.Size = New System.Drawing.Size(64, 64)
         Me.SelectCmd.TabIndex = 9
         Me.SelectCmd.UseVisualStyleBackColor = False
-        '
-        'LineWid
-        '
-        Me.LineWid.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
-        Me.LineWid.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LineWid10, Me.LineWid5, Me.LineWid3, Me.LineWid2, Me.LineWid1})
-        Me.LineWid.Image = Global.MsPaint.My.Resources.Resources.直线
-        Me.LineWid.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.LineWid.Name = "LineWid"
-        Me.LineWid.Size = New System.Drawing.Size(32, 20)
-        Me.LineWid.Text = "ToolStripSplitButton1"
-        '
-        'LineWid10
-        '
-        Me.LineWid10.CheckOnClick = True
-        Me.LineWid10.Name = "LineWid10"
-        Me.LineWid10.Size = New System.Drawing.Size(108, 22)
-        Me.LineWid10.Text = "10 px"
-        '
-        'LineWid5
-        '
-        Me.LineWid5.CheckOnClick = True
-        Me.LineWid5.Name = "LineWid5"
-        Me.LineWid5.Size = New System.Drawing.Size(108, 22)
-        Me.LineWid5.Text = "5 px"
-        '
-        'LineWid3
-        '
-        Me.LineWid3.CheckOnClick = True
-        Me.LineWid3.Name = "LineWid3"
-        Me.LineWid3.Size = New System.Drawing.Size(108, 22)
-        Me.LineWid3.Text = "3 px"
-        '
-        'LineWid2
-        '
-        Me.LineWid2.Checked = True
-        Me.LineWid2.CheckOnClick = True
-        Me.LineWid2.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.LineWid2.Name = "LineWid2"
-        Me.LineWid2.Size = New System.Drawing.Size(108, 22)
-        Me.LineWid2.Text = "2 px"
-        '
-        'LineWid1
-        '
-        Me.LineWid1.CheckOnClick = True
-        Me.LineWid1.Name = "LineWid1"
-        Me.LineWid1.Size = New System.Drawing.Size(108, 22)
-        Me.LineWid1.Text = "1 px"
         '
         'CircleCmd
         '
