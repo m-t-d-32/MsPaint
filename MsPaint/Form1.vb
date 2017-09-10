@@ -42,7 +42,9 @@
     Private Sub LoadProgram()
         For i = 1 To img.Width - 1
             For j = 1 To img.Height - 1
-                img.SetPixel(i, j, Color.White)
+                If img.GetPixel(i, j) = Color.Transparent Then
+                    img.SetPixel(i, j, Color.White)
+                End If
             Next
         Next
     End Sub
