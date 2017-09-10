@@ -1,0 +1,23 @@
+c:\users\pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\bin\Release\MsPaint.exe.config
+c:\users\pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\bin\Release\MsPaint.exe
+c:\users\pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\bin\Release\MsPaint.pdb
+c:\users\pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\bin\Release\MsPaint.xml
+c:\users\pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Release\MsPaint.Form1.resources
+c:\users\pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Release\MsPaint.Resources.resources
+c:\users\pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Release\MsPaint.vbproj.GenerateResource.Cache
+c:\users\pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Release\MsPaint.exe
+c:\users\pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Release\MsPaint.xml
+c:\users\pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Release\MsPaint.pdb
+C:\Users\Pentium\Documents\Visual Studio 2013\Projects\MsPaint\MsPaint\obj\Release\MsPaint.About.resources
+C:\Users\Pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Release\MsPaint.vbprojResolveAssemblyReference.cache
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\bin\Release\MsPaint.exe.config
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Release\MsPaint.exe
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Release\MsPaint.xml
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Release\MsPaint.pdb
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\bin\Release\MsPaint.exe
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\bin\Release\MsPaint.pdb
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\bin\Release\MsPaint.xml
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Release\MsPaint.About.resources
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Release\MsPaint.Form1.resources
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Release\MsPaint.Resources.resources
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Release\MsPaint.vbproj.GenerateResource.Cache

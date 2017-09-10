@@ -1,0 +1,23 @@
+C:\Users\Pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\bin\Debug\MsPaint.exe.config
+C:\Users\Pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\bin\Debug\MsPaint.exe
+C:\Users\Pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\bin\Debug\MsPaint.pdb
+C:\Users\Pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\bin\Debug\MsPaint.xml
+C:\Users\Pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Debug\MsPaint.Form1.resources
+C:\Users\Pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Debug\MsPaint.Resources.resources
+C:\Users\Pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Debug\MsPaint.vbproj.GenerateResource.Cache
+C:\Users\Pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Debug\MsPaint.exe
+C:\Users\Pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Debug\MsPaint.xml
+C:\Users\Pentium\documents\visual studio 2013\Projects\MsPaint\MsPaint\obj\Debug\MsPaint.pdb
+C:\Users\Pentium\Documents\Visual Studio 2013\Projects\MsPaint\MsPaint\obj\Debug\MsPaint.About.resources
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\bin\Debug\MsPaint.exe.config
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.exe
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.xml
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.pdb
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\bin\Debug\MsPaint.exe
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\bin\Debug\MsPaint.pdb
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\bin\Debug\MsPaint.xml
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.About.resources
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.Form1.resources
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.Resources.resources
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.vbproj.GenerateResource.Cache
+C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.vbprojResolveAssemblyReference.cache
