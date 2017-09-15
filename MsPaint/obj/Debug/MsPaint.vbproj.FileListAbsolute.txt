@@ -21,9 +21,6 @@ C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.Form1.resources
 C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.Resources.resources
 C:\Users\Pentium\Desktop\MsPaint\MsPaint\obj\Debug\MsPaint.vbproj.GenerateResource.Cache
 C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\bin\Debug\MsPaint.exe.config
-C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\obj\Debug\MsPaint.exe
-C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\obj\Debug\MsPaint.xml
-C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\obj\Debug\MsPaint.pdb
 C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\bin\Debug\MsPaint.exe
 C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\bin\Debug\MsPaint.pdb
 C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\bin\Debug\MsPaint.xml
@@ -31,3 +28,6 @@ C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\obj\Debug\MsPaint.About.resour
 C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\obj\Debug\MsPaint.Form1.resources
 C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\obj\Debug\MsPaint.Resources.resources
 C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\obj\Debug\MsPaint.vbproj.GenerateResource.Cache
+C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\obj\Debug\MsPaint.exe
+C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\obj\Debug\MsPaint.xml
+C:\Users\Pentium\Documents\GitHub\MsPaint\MsPaint\obj\Debug\MsPaint.pdb
