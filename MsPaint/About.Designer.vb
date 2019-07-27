@@ -41,11 +41,11 @@ Partial Class About
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("幼圆", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.5!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(134, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Purple
-        Me.Label1.Location = New System.Drawing.Point(9, 187)
+        Me.Label1.Location = New System.Drawing.Point(14, 187)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(273, 98)
+        Me.Label1.Size = New System.Drawing.Size(268, 119)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "远方数字控制技术 联合署 浮点运算实验室" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "2017年9月 版本1.1.0" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "使用开源产品，请遵守开源协议。" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "推荐使用 Intel Celeron 处理" & _
     "器和配套的" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Intel核芯显卡以获得更佳的使用体验" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
@@ -53,7 +53,7 @@ Partial Class About
         'Back
         '
         Me.Back.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Back.Location = New System.Drawing.Point(216, 294)
+        Me.Back.Location = New System.Drawing.Point(213, 328)
         Me.Back.Name = "Back"
         Me.Back.Size = New System.Drawing.Size(69, 22)
         Me.Back.TabIndex = 2
@@ -64,12 +64,12 @@ Partial Class About
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(297, 328)
+        Me.ClientSize = New System.Drawing.Size(297, 362)
         Me.ControlBox = False
         Me.Controls.Add(Me.Back)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.MaximumSize = New System.Drawing.Size(313, 366)
+        Me.MaximumSize = New System.Drawing.Size(313, 400)
         Me.Name = "About"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds
         Me.Text = "About"
